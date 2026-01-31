@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git ''
+                git 'https://github.com/raghavendra2006/Jenkin-CICD-main.git'
             }
         }
 
